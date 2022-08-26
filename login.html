@@ -1,0 +1,27 @@
+<html>
+<body>
+<form method="post">
+	Enter your Name<input type="text" name="username"><br/></br>
+	Enter the EmployeeID<input type="text" name="eid"><br/></br>
+	Enter the E-mail<input type="text" name="email"><br/></br>
+	Enter the type of job<br><input type="radio" name="type" id="r1" value="Part time">PART TIME
+	<input type="radio" name="type" id="r2" value="Full time">FULL TIME</br></br>
+	Enter Branch
+	<select name="branch">
+		<option value="1">--CHOOSE--</option>
+		<option value="sales">SALES</option>
+		<option value="service">SERVICE</option>
+	</select></br></br>
+	
+	<input type="submit" name="show" value="Retrive" 
+				formaction="http://localhost:3000/retrive"/>
+	<input type="submit" name="login" value="Insert" 
+				formaction="http://localhost:3000/insert"/>
+	<input type="submit" name="login" value="Update" 
+				formaction="http://localhost:3000/update"/>
+	<input type="submit" name="login" value="Delete" 
+				formaction="http://localhost:3000/delete"/>	
+										
+</form>
+</body>
+</html>
